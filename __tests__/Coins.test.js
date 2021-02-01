@@ -17,7 +17,7 @@ describe('Coins', () => {
   })
 
   test("Should correctly return one nickel()", () => {
-    expect(coins.calc(.04)).toEqual([0,0,1,0]);
+    expect(coins.calc(.05)).toEqual([0,0,1,0]);
   })
 
 });
