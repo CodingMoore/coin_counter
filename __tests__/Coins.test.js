@@ -12,5 +12,9 @@ describe('Coins', () => {
     expect(coins.calc(.25)).toEqual([1,0,0,0]);
   });
 
+  test("Should correctly return one dime()", () => {
+    expect(coins.calc(.09)).toEqual([0,1,0,0]);
+  })
+
 });
 
