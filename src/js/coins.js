@@ -1,10 +1,5 @@
 export class Coins {
   constructor() {
-    this.coinCount = [0, 0, 0, 0];
-    this.quarters = .25;
-    this.dimes = .10;
-    this.nickles = .5;
-    this.pennies = .01;
   }
 
   calc(amount, coinCount = [0, 0, 0, 0]) {
