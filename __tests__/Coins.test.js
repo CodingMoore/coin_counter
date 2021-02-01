@@ -25,7 +25,7 @@ describe('Coins', () => {
   })
 
   test("Should correctly return all change()", () => {
-    expect(coins.calc(4.96)).toEqual([19,2,1,2]);
+    expect(coins.calc(5.16)).toEqual([20,1,1,1]);
   })
 });
 
