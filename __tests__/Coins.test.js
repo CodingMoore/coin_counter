@@ -13,7 +13,7 @@ describe('Coins', () => {
   });
 
   test("Should correctly return one dime()", () => {
-    expect(coins.calc(.09)).toEqual([0,1,0,0]);
+    expect(coins.calc(.10)).toEqual([0,1,0,0]);
   })
 
 });
