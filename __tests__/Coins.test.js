@@ -24,5 +24,8 @@ describe('Coins', () => {
     expect(coins.calc(.01)).toEqual([0,0,0,1]);
   })
 
+  test("Should correctly return all change()", () => {
+    expect(coins.calc(4.96)).toEqual([19,2,1,2]);
+  })
 });
 
