@@ -9,7 +9,7 @@ describe('Coins', () => {
   });
 
   test("Should correctly return one quarter()", () => {
-    expect(coins.calc(.23)).toEqual([1,0,0,0]);
+    expect(coins.calc(.25)).toEqual([1,0,0,0]);
   });
 
 });
