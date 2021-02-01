@@ -20,5 +20,9 @@ describe('Coins', () => {
     expect(coins.calc(.05)).toEqual([0,0,1,0]);
   })
 
+  test("Should correctly return one penny()", () => {
+    expect(coins.calc(.02)).toEqual([0,0,0,1]);
+  })
+
 });
 
